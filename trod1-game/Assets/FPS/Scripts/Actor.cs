@@ -30,5 +30,7 @@ public class Actor : MonoBehaviour
         {
             m_ActorsManager.actors.Remove(this);
         }
+
+        
     }
 }
