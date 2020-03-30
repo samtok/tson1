@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8C2D1E94-87BE-E0CF-6BB6-B73BCFA2062A}</ProjectGuid>
+    <ProjectGuid>{1AF7E356-2D58-7119-FE6C-C1ED31A62E64}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -90,6 +90,7 @@
     <Compile Include="Assets\FPS\Scripts\InGameMenuManager.cs" />
     <Compile Include="Assets\FPS\Scripts\Jetpack.cs" />
     <Compile Include="Assets\FPS\Scripts\JetpackPickup.cs" />
+    <Compile Include="Assets\FPS\Scripts\MainMenu\MoveAcrossScreen.cs" />
     <Compile Include="Assets\FPS\Scripts\MeshCombiner.cs" />
     <Compile Include="Assets\FPS\Scripts\MeshCombineUtility.cs" />
     <Compile Include="Assets\FPS\Scripts\MinMaxParameters.cs" />
@@ -162,66 +163,67 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\ExternalAssets\SkySerie Freebie\Hdri setup.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\FPS\Art\Fonts\ApacheLicense2.0.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.UIWidgets.Editor">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.UIWidgets.Editor.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.UIWidgets.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Connect.Share.Editor">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.UIWidgets">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.UIWidgets.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.UIWidgets.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.InteractiveTutorialsFramework">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.024">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.024.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.024.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Unity/2018.4.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -425,10 +427,10 @@
       <HintPath>D:/Unity/2018.4.19f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>C:/Proyectos/Games/Unity/TROD1/trod1-game/Library/PackageCache/com.unity.connect.share@1.0.10-preview/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+      <HintPath>C:/Proyectos/Games/Unity/tson1/game/Library/PackageCache/com.unity.connect.share@1.0.10-preview/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Unity/2018.4.19f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -778,11 +780,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{F271A8EB-E4C5-E23D-7A3A-665AC7CB7812}</Project>
+      <Project>{A99AF75B-9BF9-69EF-DA3D-7D01F9A2BC9D}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{F970587E-A40F-FB33-80FC-824FF04B169F}</Project>
+      <Project>{1C711453-AFEC-6C3C-93C1-93323E542CC9}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
